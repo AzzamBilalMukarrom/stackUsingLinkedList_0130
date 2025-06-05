@@ -51,12 +51,9 @@ class Stack
             return;
         }
         cout << "Popped value: " << top->data << endl;
-        top = top->next
+        top = top->next;
     }
     void peek()
     {
-        
-    }
-};
-
-
+   
+}
