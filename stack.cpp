@@ -45,13 +45,15 @@ class Stack
 
     void pop()
     {
+        Node* temp = top;
         if (isEmpty())
         {
             cout << "Stack is empty." << endl;
             return;
         }
         cout << "Popped value: " << top->data << endl;
-        top = top->next;
+        top = temp->next;
+        temp = nullptr;
     }
     void peek()
     {
@@ -104,7 +106,12 @@ int main()
             case 3:
             stack.peek();
             break;
-          
+            case 4:
+            cout << "Exiting the program. " << endl;
+            break;
+        default:
+        cout << "invalid choice. Try again.. " << endl;
+        break;
         }
     }
 }
