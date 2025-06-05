@@ -101,7 +101,10 @@ int main()
             case 2:
             stack.pop();
             break;
-           
+            case 3:
+            stack.peek();
+            break;
+          
         }
     }
 }
