@@ -38,5 +38,11 @@ class Stack
         return value;
     }
 
+    bool isEmpty()
+    {
+        return top == NULL;
+    }
+
 
 };
+
