@@ -77,7 +77,7 @@ class Stack
 
 int main()
 {
-    
+    Stack stack;
 }
 
 
